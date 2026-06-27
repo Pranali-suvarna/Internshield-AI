@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section  id="home" className="bg-slate-950 text-white min-h-[80vh] flex items-center">
@@ -29,9 +30,12 @@ function Hero() {
   </button>
 </Link>
 
-          <button className="border border-cyan-400 px-8 py-4 rounded-xl text-lg hover:bg-cyan-400 hover:text-black">
-            Learn More
-          </button>
+          <Link
+  to="/learnmore"
+  className="border border-cyan-400 px-8 py-3 rounded-lg hover:bg-cyan-400 hover:text-black"
+>
+  Learn More
+</Link>
 
         </div>
 

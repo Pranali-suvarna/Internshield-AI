@@ -19,7 +19,7 @@ function Stats() {
   ];
 
   return (
-    <section className="bg-slate-950 text-white py-20">
+    <section  className="bg-slate-950 text-white py-20">
       <div className="max-w-7xl mx-auto px-8">
 
         <h2 className="text-4xl font-bold text-center mb-12">

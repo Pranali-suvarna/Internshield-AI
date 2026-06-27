@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="bg-slate-950 text-white py-20">
+    <section id="contact" className="bg-slate-950 text-white py-52">
       <div className="max-w-6xl mx-auto px-8 text-center">
 
         <h2 className="text-4xl font-bold text-cyan-400 mb-6">
