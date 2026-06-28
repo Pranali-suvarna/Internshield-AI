@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 function Navbar() {
-  const location = useLocation();
+const location = useLocation();
 const isAnalyzePage = location.pathname === "/analyze";
+const isHomePage = location.pathname === "/";
   return (
     // <nav className="bg-slate-950 text-white shadow-lg">
       //  <nav className="fixed top-0 left-0 w-full z-50 bg-slate-900 text-white shadow-lg">
@@ -13,11 +14,22 @@ const isAnalyzePage = location.pathname === "/analyze";
         </h1>
 
         <ul className="hidden md:flex gap-8 text-lg">
-  <li>
+  {/* <li>
     <Link to="/" className="hover:text-cyan-400">
       Home
     </Link>
-  </li>
+  </li> */}
+  <li>
+  {isHomePage ? (
+    <a href="#home" className="hover:text-cyan-400">
+      Home
+    </a>
+  ) : (
+    <Link to="/" className="hover:text-cyan-400">
+      Home
+    </Link>
+  )}
+</li>
 
   {!isAnalyzePage && (
     <>

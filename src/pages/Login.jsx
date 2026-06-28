@@ -50,9 +50,9 @@ function Login() {
 
         <p className="text-center text-gray-400 mt-5">
           Don't have an account?
-          <span className="text-cyan-400 cursor-pointer">
-            Register
-          </span>
+          <Link to="/register" className="text-cyan-400">
+  Register
+</Link>
         </p>
 
         <div className="text-center mt-5">

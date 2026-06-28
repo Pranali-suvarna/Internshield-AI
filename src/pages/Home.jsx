@@ -4,7 +4,8 @@ import Features from "../components/Features";
 import Stats from "../components/Stats";
 import About from "../components/About";
 import Contact from "../components/Contact";
-
+import TrustedCompanies from "../components/TrustedCompanies";
+import RecentAnalysis from "../components/RecentAnalysis";
 function Home() {
   return (
     <>
@@ -12,6 +13,8 @@ function Home() {
       <Hero />
       <Features />
       <Stats />
+      <TrustedCompanies />
+      <RecentAnalysis /> 
       <About />
       <Contact />
     </>
